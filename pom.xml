@@ -6,7 +6,12 @@
 
     <groupId>jd.com</groupId>
     <artifactId>LeetCode</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>dubbo-server</module>
+        <module>dubbo-client</module>
+    </modules>
 
     <dependencies>
         <dependency>
