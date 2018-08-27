@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LeetCode" />
+        <module name="cache-demo" />
+        <module name="dubbo-client" />
+        <module name="dubbo-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-Cache" target="1.7" />
+      <module name="springboot-cache" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
